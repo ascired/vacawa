@@ -15,7 +15,11 @@
 
     <div class="main">
         <div class="main__section">
-            <video src="video/thai.mp4" class="main__video" autoplay loop muted poster=""></video>
+            <video class="main__video" autoplay loop muted poster="i/video-poster.jpg">
+                <source src="video/thai.mp4" type="video/mp4" />
+                <source src="video/thai.ogv" type="video/ogg" />
+                <source src="video/thai.webm" type="video/webm" />
+            </video>
             <div class="main__watch">
                 <div class="watch__wrap">
                   <div class="watch__item watch__days">
